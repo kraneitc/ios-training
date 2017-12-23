@@ -36,16 +36,17 @@ namespace Protocols_Delegates_Events
 
 			//Exmaple 1 - Using Strongly tryped delegate
 			//set the map's delegate
-			_mapDelegate = new SampleMapDelegate ();
-			map.Delegate = _mapDelegate;
+			//_mapDelegate = new SampleMapDelegate ();
+			//map.Delegate = _mapDelegate;
 
 			//Example 2 - Using weak deleegate
 			//map.WeakDelegate = this;
 
 			//Exmaple 3 - Using .NET event
-			/*map.DidSelectAnnotationView += (s,e) => {
+			map.DidSelectAnnotationView += (s,e) => {
 
                 var sampleAnnotation = e.View.Annotation as SampleMapAnnotation;
+                var mapView = s as MKMapView;
 
                 if (sampleAnnotation != null) {
 
@@ -55,7 +56,7 @@ namespace Protocols_Delegates_Events
                     //demo accessing the title of the selected annotation
                     Console.WriteLine ("{0} was tapped", sampleAnnotation.Title);
                 }
-            };*/
+            };
 
 			//an arbitrary coordinate used for demonstration here
 			var sampleCoordinate = new CLLocationCoordinate2D (42.3467512, -71.0969456);
@@ -66,6 +67,22 @@ namespace Protocols_Delegates_Events
 			//create an annotation and add it to the map
 			map.AddAnnotation (new SampleMapAnnotation (sampleCoordinate));
 		}
+
+        [Export("mapView:didSelectAnnotationView:")]
+        public void DidSelectAnnotationView (MKMapView mapView, MKAnnotationView annotationView)
+        {
+            var sampleAnnotation = annotationView.Annotation as SampleMapAnnotation;
+
+            if (sampleAnnotation != null)
+            {
+
+                //demo accessing the coordinate of the selected annotation to zoom in on it
+                mapView.Region = MKCoordinateRegion.FromDistance(sampleAnnotation.Coordinate, 500, 500);
+
+                //demo accessing the title of the selected annotation
+                Console.WriteLine("{0} was tapped", sampleAnnotation.Title);
+            }
+        }
 
 		public override void ViewWillAppear (bool animated)
 		{
