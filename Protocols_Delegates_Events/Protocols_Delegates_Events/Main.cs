@@ -17,4 +17,4 @@ namespace Protocols_Delegates_Events
 			UIApplication.Main (args, null, "AppDelegate");
 		}
 	}
-}
+} 
