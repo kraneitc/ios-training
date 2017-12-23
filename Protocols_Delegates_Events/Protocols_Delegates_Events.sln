@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocols_Delegates_Events", "Protocols_Delegates_Events\Protocols_Delegates_Events.csproj", "{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Debug|iPhone.Build.0 = Debug|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Release|iPhone.ActiveCfg = Release|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Release|iPhone.Build.0 = Release|iPhone
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{0279FEA5-86A8-4412-8E0F-503DEDF2EA81}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6233FAE-8DDC-4760-BD45-ED7BECD05AE4}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Protocols_Delegates_Events\Protocols_Delegates_Events.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\bin\iPhone\Debug\Protocols_Delegates_Events.exe
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\bin\iPhone\Debug\Protocols_Delegates_Events.pdb
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\optimized\
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\Protocols_Delegates_Events.csproj.CoreCompileInputs.cache
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\Protocols_Delegates_Events.exe
+C:\Users\steve\source\repos\ios-samples\Protocols_Delegates_Events\Protocols_Delegates_Events\obj\iPhone\Debug\Protocols_Delegates_Events.pdb
